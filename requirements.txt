@@ -1,0 +1,9 @@
+fastapi
+uvicorn 
+openai 
+supabase
+streamlit
+requests
+dotenv
+psycopg2-binary
+supervisor
