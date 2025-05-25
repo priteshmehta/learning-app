@@ -13,26 +13,22 @@ This app uses FastAPI, OpenAI, and Supabase to build learning app
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
-   cd learning
+   git clone https://github.com/priteshmehta/learning-app
+   cd learning-app
 
 2. **Build and Run as Docker**
    ```sh
    ./scripts/build.sh
-   ./start.sh
-
-2. **Build and Run as Docker**
-   ```sh
-   ./scripts/build.sh
-   ./start.sh
+   ./scripts/start.sh
 
 3. **Build and Run on local machine**
     ```sh
-    streamlit run ../app.py
+    ./scripts/run_app.sh
     python ./scripts/run_backend.py
 
 
 4. **App Server
-   http://localhost:8501/
-   
+   Frontend: http://localhost:8501
+   Backend: http://localhost:8000
+
 
