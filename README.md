@@ -31,3 +31,8 @@ This app uses FastAPI, OpenAI, and Supabase to build learning app
     streamlit run ../app.py
     python ./scripts/run_backend.py
 
+
+4. **App Server
+   http://localhost:8501/
+   
+

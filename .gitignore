@@ -1,0 +1,38 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env
+*.sqlite3
+*.db
+*.log
+*.pid
+*.swp
+.DS_Store
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
+*.bak
+*.tmp
+*.out
+*.coverage
+*.egg
+*.orig
+*.tar.gz
+*.tgz
+*.zip
+
+# Docker
+*.tar
+
+# Streamlit cache
+.streamlit/
+
+# Supervisor logs
+supervisord.log
+
+# Ignore local scripts output
+scripts/*.log
